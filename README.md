@@ -6,7 +6,7 @@ A repository to practice MySQL
 
 # Basic query of SQL
 - SELECT * FROM table_name
-- WHERE
+- WHERE : to find certain object
 - ORDER BY (ASC/DESC) : similar to "sort by" on shopping sites
 - LIMIT : limit the result amount
 - OFFSET : start after
