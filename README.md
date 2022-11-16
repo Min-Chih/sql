@@ -10,6 +10,12 @@ A repository to practice MySQL
 - ORDER BY (ASC/DESC) : similar to "sort by" on shopping sites
 - LIMIT : limit the result amount
 - OFFSET : start after
-- INSERT INTO table_name (colum_name) : add new data to a table, followed by VALUE (data)
-- UPDATE table_name SET colum_name WHERE the object you want to change
+- INSERT INTO table_name (column_name) : add new data to a table, followed by VALUE (data)
+- UPDATE table_name SET column_name WHERE the object you want to change
 - DELETE FROM table_name WHERE data you want to delete
+
+# CRUD
+- C : Create
+- R : Read
+- U : Update
+- D : Delete
