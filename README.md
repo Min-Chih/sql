@@ -11,3 +11,5 @@ A repository to practice MySQL
 - LIMIT : limit the result amount
 - OFFSET : start after
 - INSERT INTO table_name (colum_name) : add new data to a table, followed by VALUE (data)
+- UPDATE table_name SET colum_name WHERE the object you want to change
+- DELETE FROM table_name WHERE data you want to delete
