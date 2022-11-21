@@ -26,6 +26,14 @@ FROM posts AS p
 JOIN users 
 AS u ON u.ID = p.post_author
 ```
+- UNION : combining data from two tables vertically
+```
+SELECT users.user_email
+FROM users
+UNION 
+SELECT comments.comment_author_email
+FROM comments
+```
 
 # CRUD
 - C : Create
