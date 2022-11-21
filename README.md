@@ -13,6 +13,12 @@ A repository to practice MySQL
 - INSERT INTO table_name (column_name) : add new data to a table, followed by VALUE (data)
 - UPDATE table_name SET column_name WHERE the object you want to change
 - DELETE FROM table_name WHERE data you want to delete
+- JOIN : yuse JOIN to merge two tables to get more data, e.g.
+```
+SELECT posts.post_title, users.user_nicename
+FROM posts
+JOIN users ON users.ID = posts.post_author
+```
 
 # CRUD
 - C : Create
