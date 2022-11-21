@@ -19,6 +19,13 @@ SELECT posts.post_title, users.user_nicename
 FROM posts
 JOIN users ON users.ID = posts.post_author
 ```
+- AS : use AS to rename tables or name the new column, e.g.
+```
+SELECT p.post_title as "Post Title", u.user_nicename, count(*) as "Total Posts"
+FROM posts AS p
+JOIN users 
+AS u ON u.ID = p.post_author
+```
 
 # CRUD
 - C : Create
